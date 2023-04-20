@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'mr_KindlyJasmineG';
+    src: url('../fonts/mr_kindlyjasmineg.eot'); /* IE 9 Compatibility Mode */
+    src: url('../fonts/mr_kindlyjasmineg.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/mr_kindlyjasmineg.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/mr_kindlyjasmineg.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/mr_kindlyjasmineg.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/mr_kindlyjasmineg.svg#mr_kindlyjasmineg') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+.container{
+    max-width: 1120px;
+    margin: auto;
+}
+header .container{
+    position: absolute;
+    z-index: 1;
+    margin-left: 977px;
+    margin-top: 46px;
+}
+header .nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+header .nav ul li{
+    margin-left: 20px;
+}
+header .nav ul li a{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration-line: none;
+}
+.main_banner{
+    background-image: url("../images/main_banner.jpg");
+    background-size: cover;
+    padding-top: 237px;
+    padding-bottom: 248px;
+    position: relative;
+}
+.main_banner .container h2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 88px;
+    color: #FFFFFF;
+}
+.main_banner .container h1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 117px;
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+    margin-top: 23px;
+    margin-bottom: 60px;
+}
+.main_banner .container h3{
+    font-family: 'mr_KindlyJasmineG', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    color: #FFC700;
+    position: absolute;
+    margin-left: 390px;
+}
+.main_banner .container a{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration-line: none;
+}
+.btn_excursion{
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    border-radius: 60px;
+    padding: 17px 72px 17px 53px;
+}
+.arrow-1 {
+    cursor: pointer;
+    position: relative;
+}
+.arrow-1 div {
+    position: relative;
+    bottom: 10px;
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    display: block;
+    margin-left: 165px;
+}
+.arrow-1 div::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    top: -5px;
+    right: -3px;
+    background-color: white;
+    transform: rotate(45deg);
+}
+.arrow-1 div::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    top: 5px;
+    right: -3px;
+    background-color: white;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    transform: rotate(-45deg);
+}
+.arrow-1:hover {
+    animation: arrow-1 1s linear infinite;
+}
