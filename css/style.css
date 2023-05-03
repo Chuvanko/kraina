@@ -234,3 +234,70 @@ header .nav ul li a:hover{
     padding: 12px 43px 12px 43px;
     margin-left: 16px;
 }
+.about_us{
+    padding-top: 172px;
+}
+.img_about{
+    position: absolute;
+}
+.about_us .container{
+    background: #EDEDED;
+    border-radius: 10px;
+    position: relative;
+    max-width: 542px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    justify-content: flex-end;
+    margin-right: 160px;
+    margin-top: 115px;
+}
+.about_us .container h2{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0499DD;
+    margin-left: 85px;
+    margin-bottom: 40px;
+}
+.about_us .container p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282828;
+    max-width: 382px;
+    margin-left: 85px;
+    margin-bottom: 40px;
+}
+.about_us .container ul li{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282828;
+    max-width: 382px;
+    margin-left: 85px;
+}
+.list6b {
+    padding:0;
+    list-style: none;
+}
+.list6b li{
+    padding:6px;
+}
+.list6b li:before {
+    padding-right:10px;
+    font-weight: bold;
+    color: #C0C0C0;
+    content: "\2714";
+    transition-duration: 0.5s;
+}
+.list6b li:hover:before {
+    color: #0499DD;
+    content: "\2714";
+}
