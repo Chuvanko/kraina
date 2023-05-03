@@ -38,6 +38,9 @@ header .nav ul li a{
     color: #FFFFFF;
     text-decoration-line: none;
 }
+header .nav ul li a:hover{
+    color: #FFC700;
+}
 .main_banner{
     background-image: url("../images/main_banner.jpg");
     background-size: cover;
@@ -83,6 +86,9 @@ header .nav ul li a{
     color: #FFFFFF;
     text-decoration-line: none;
 }
+.main_banner .container a:hover{
+    color: #FFC700;
+}
 .btn_excursion{
     background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
     border-radius: 60px;
@@ -125,4 +131,79 @@ header .nav ul li a{
 }
 .arrow-1:hover {
     animation: arrow-1 1s linear infinite;
+}
+.excursions{
+    padding-top: 263px;
+}
+.excursions .container{
+    display: flex;
+    justify-content: space-between;
+}
+.excursions .container h2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0499DD;
+}
+.excursions .container a{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #282828;
+}
+.back_for_photo{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.121739) 0%, #000000 100%), url(.jpg);
+    border-radius: 10px;
+}
+.back_for_photo p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    position: relative;
+    max-width: 328px;
+    margin-left: 16px;
+}
+.back_for_photo h3{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFC700;
+    position: relative;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    margin-left: 16px;
+}
+.excursion_1{
+    position: absolute;
+}
+.time_cost{
+    position: absolute;
+    display: flex;
+    margin-left: 16px;
+}
+.time_cost h4{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    position: relative;
+    max-width: 328px;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+.description{
+    margin-top: 50px;
+    margin-left: 16px;
 }
