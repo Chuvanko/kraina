@@ -138,6 +138,7 @@ header .nav ul li a:hover{
 .excursions .container{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 90px;
 }
 .excursions .container h2{
     font-family: 'Montserrat', sans-serif;
@@ -160,7 +161,7 @@ header .nav ul li a:hover{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.121739) 0%, #000000 100%), url(.jpg);
     border-radius: 10px;
 }
-.back_for_photo p{
+.excursions .container .back_for_photo h2{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -168,8 +169,8 @@ header .nav ul li a:hover{
     line-height: 15px;
     color: #FFFFFF;
     position: relative;
-    max-width: 328px;
     margin-left: 16px;
+    margin-top: 200px;
 }
 .back_for_photo h3{
     font-family: 'Montserrat', sans-serif;
@@ -204,6 +205,32 @@ header .nav ul li a:hover{
     margin-left: 5px;
 }
 .description{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-left: 16px;
+    margin-bottom: 20px;
     margin-top: 50px;
+    max-width: 328px;
+    position: relative;
+}
+.excursions .container .back_for_photo a{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-decoration-line: none;
+    margin-top: 30px;
+}
+.btn_more{
+    position: relative;
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    border-radius: 60px;
+    padding: 12px 43px 12px 43px;
     margin-left: 16px;
 }
