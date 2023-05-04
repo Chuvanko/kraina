@@ -309,6 +309,7 @@ header .nav ul li a:hover{
 }
 .type_of_ex{
     padding-top: 300px;
+    padding-bottom: 150px;
 }
 .type_of_ex .container h2{
     font-family: 'Montserrat', sans-serif;
@@ -345,7 +346,54 @@ header .nav ul li a:hover{
     color: #282828;
     max-width: 455px;
     margin-top: 10px;
+    margin-bottom: 60px;
 }
 .img_auto{
     margin-right: 20px;
+}
+.type_of_ex .container p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282828;
+    max-width: 550px;
+    margin: auto;
+}
+.type_of_ex .container a{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration-line: none;
+}
+.type_description{
+    align-items: center;
+    justify-content: center;
+}
+.type_botton{
+    display: flex;
+    justify-content: center;
+}
+.type_description{
+    text-align: center;
+}
+.btn_type{
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    border-radius: 60px;
+    padding: 17px 53px 17px 53px;
+    margin-top: 20px;
+}
+.type_botton a:hover {
+    background: rgba(0,0,0,0);
+    color: #0499DD;
+    box-shadow: inset 0 0 0 3px #0499DD;
+}
+.excursions .container .back_for_photo a:hover {
+    background: rgba(0,0,0,0);
+    color: #FFC700;
+    box-shadow: inset 0 0 0 3px #FFC700;
 }
