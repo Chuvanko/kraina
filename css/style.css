@@ -40,6 +40,7 @@ header .nav ul li a{
 }
 header .nav ul li a:hover{
     color: #FFC700;
+    transition: .5s ease all;
 }
 .main_banner{
     background-image: url("../images/main_banner.jpg");
@@ -88,6 +89,7 @@ header .nav ul li a:hover{
 }
 .main_banner .container a:hover{
     color: #FFC700;
+    transition: .5s ease all;
 }
 .btn_excursion{
     background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
@@ -626,18 +628,72 @@ figure{
     color: #0499DD;
     box-shadow: inset 0 0 0 3px #0499DD;
 }
-footer .footer_content {
-    padding: 45px 77px;
-    -webkit-box-orient: horizontal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-.nav_in_footer{
+footer .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
     display: flex;
-    -webkit-box-direction: normal;
+    justify-content: space-between;
+}
+footer .container .nav_menu{
+    flex-direction: column;
+    display: flex;
+    margin-top: 10px;
+}
+footer .container .nav_menu a{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282828;
+    text-decoration-line: none;
+    margin: 8px 0;
+}
+footer .container .nav_menu a:hover{
+    color: #FFC700;
+    transition: .5s ease all;
+}
+footer .container .footer_contact{
+    flex-direction: column;
+    text-decoration: none;
+    display: flex;
+    margin-top: 10px;
+}
+footer .container .footer_contact a{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282828;
+    text-decoration-line: none;
+    margin: 8px 0;
+}
+footer .container .footer_contact a:hover{
+    color: #FFC700;
+    transition: .5s ease all;
+}
+.img_social{
+    margin-right: 10px;
+    margin-bottom: -4px;
+}
+footer .container .social{
+    flex-direction: column;
+    text-decoration: none;
+    display: flex;
+    margin-top: 10px;
+}
+footer .container .social a{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282828;
+    text-decoration-line: none;
+    margin: 8px 0;
+}
+footer .container .social a:hover{
+    color: #FFC700;
+    transition: .5s ease all;
 }
