@@ -97,7 +97,7 @@ header .nav ul li a:hover{
     padding: 17px 53px 17px 53px;
 }
 .excursions{
-    padding-top: 263px;
+    padding-top: 150px;
 }
 .excursions .container{
     display: flex;
@@ -120,10 +120,6 @@ header .nav ul li a:hover{
     line-height: 15px;
     text-decoration-line: underline;
     color: #282828;
-}
-.back_for_photo{
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.121739) 0%, #000000 100%), url(.jpg);
-    border-radius: 10px;
 }
 .excursions .container .back_for_photo h2{
     font-family: 'Montserrat', sans-serif;
@@ -205,7 +201,7 @@ header .nav ul li a:hover{
     color: #0499DD;
 }
 .about_us{
-    padding-top: 172px;
+    padding-top: 170px;
 }
 .img_about{
     position: absolute;
@@ -546,7 +542,7 @@ figure{
     display: flex;
 }
 .questions{
-    padding-top: 233px;
+    padding-top: 170px;
 }
 .questions .img_question{
     background-size: cover;
@@ -700,3 +696,12 @@ footer .container .social a:hover{
 .inst_face{
     margin-top: 15px;
 }
+.ex_4{
+    width: 360px;
+    height: 497px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.121739) 0%, #000000 100%), url(.jpeg);
+}
+
+
+
