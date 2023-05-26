@@ -21,3 +21,11 @@ document.addEventListener( 'DOMContentLoaded', function() {
     var splide = new Splide( '.splide' );
     splide.mount();
 } );
+    $(document).ready(function(){
+    $("#menu, #button").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
