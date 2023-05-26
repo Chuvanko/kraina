@@ -17,25 +17,25 @@
 <body>
 <header>
     <div class="container">
-        <div class="nav">
+        <div id="menu" class="nav">
             <ul>
-                <li><a href="#">Головна</a></li>
-                <li><a href="#">Екскурсії</a></li>
-                <li><a href="#">Особистий кабінет</a></li>
+                <li><a href="#element1">Головна</a></li>
+                <li><a href="#element3">Про нас</a></li>
+                <li><a href="#element4">Контакти</a></li>
             </ul>
         </div>
     </div>
 </header>
 <main>
-    <section class="main_banner">
-        <div class="container">
+    <section id="element1" class="main_banner">
+        <div id="button" class="container">
             <h2>МАНДРУЙ</h2>
             <h3>разом з</h3>
             <h1>KRAINA UA</h1>
-            <a href="#" class="btn_excursion">До екскурсій</a>
+            <a href="#element2" class="btn_excursion">До екскурсій</a>
         </div>
     </section>
-    <section class="excursions">
+    <section id="element2" class="excursions">
         <div class="container">
             <h2>Популярні екскурсії</h2>
             <a href="#">Дивитись все</a>
@@ -141,7 +141,7 @@
         </div>
     </section>
     <section class="about_us">
-        <div class="img_about"><img src="images/about_us.png"></div>
+        <div id="element3" class="img_about"><img src="images/about_us.png"></div>
         <div class="container">
             <h2>Про нас</h2>
             <p>KrainaUa - перший онлайн-сервіс з бронювання екскурсій без черг та операторів, яий змінює уявлення
@@ -251,10 +251,14 @@
                         Була дегустація сирів із вином, теж усе сподобалося. Дякуємо за такі тури.</p>
                 </div>
             </article>
+            <a href="#" class="arrow-2">
+                <div class="arrow-2-top"></div>
+                <div class="arrow-2-bottom"></div>
+            </a>
         </div>
     </section>
     <section class="questions">
-        <div class="img_question"><img src="images/question.jpg"></div>
+        <div id="element4" class="img_question"><img src="images/question.jpg"></div>
         <div class="contact_form">
             <h2>Залишились питання?</h2>
             <h3>Надішли заявку і ми відповімо</h3>
