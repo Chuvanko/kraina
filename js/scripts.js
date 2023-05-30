@@ -22,7 +22,7 @@ document.addEventListener( 'DOMContentLoaded', function() {
     splide.mount();
 } );
     $(document).ready(function(){
-    $("#menu, #button").on("click","a", function (event) {
+    $("#menu, #button, #button_1, #menu_fot, #fot_logo").on("click","a", function (event) {
         event.preventDefault();
         var id  = $(this).attr('href'),
             top = $(id).offset().top;
