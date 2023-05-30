@@ -509,7 +509,6 @@ figure{
 }
 .reviews_cont p{
     max-width: 395px;
-    text-align: justify;
 }
 .reviews_cont{
     display: flex;
